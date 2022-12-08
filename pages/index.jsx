@@ -76,6 +76,7 @@ const Home = () => {
             the New Year for you.
             <br />( Click on tree for surprise! ) </p>
           <span className='font-bold pt-10 italic underline '> Mk Timothy</span>
+          <br />
         </div>
         {/* /////////////////////////////////////////// */}
         <div className='h-[100vh] lg:h-fit flex items-center m-auto justify-center '>
