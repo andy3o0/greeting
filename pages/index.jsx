@@ -53,8 +53,8 @@ const Home = () => {
     <div className="">
       <Head>
         <title>Merry Christmas {name}</title>
-        <meta property="og:site_name" content={`Merry Christmas`} />
-        <meta property="og:title" content={`Merry Christmas`} />
+        <meta property="og:site_name" content="Merry Christmas" />
+        <meta property="og:title" content="Merry Christmas" />
         <meta property="og:image" content="/ogr.webp" />
         <link rel="icon" href="/favicon.ico" />
         <link
