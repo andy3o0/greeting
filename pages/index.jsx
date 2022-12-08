@@ -55,7 +55,7 @@ const Home = () => {
         <title>Merry Christmas</title>
         {/* <meta property="og:site_name" content="Merry Christmas" /> */}
         {/* <meta property="og:title" content="Merry Christmas" /> */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/ogr.webp" />
         <link
           href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
           rel="stylesheet"
