@@ -123,10 +123,10 @@ const Home = () => {
           <li></li>
           <li></li>
           <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li className='md:block hidden'></li>
+          <li className='sm:block hidden'></li>
+          <li className='sm:block hidden'></li>
+          <li className='sm:block hidden'></li>
+          <li className='sm:block hidden'></li>
           <li className='md:block hidden'></li>
           <li className='md:block hidden'></li>
           <li className='md:block hidden'></li>
