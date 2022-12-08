@@ -63,7 +63,7 @@ const Home = () => {
         <meta property="og:image" content="/ogr.webp" />
       </Head>
 
-      <div className={`min-h-[200vh] 2xl:min-h-[100vh] md:my-auto overflow-hidden md:overflow-auto bg-red-700 justify-between px-20 flex-wrap md:px-40 items-center relative`} style={{ display: `${!open ? "flex" : "none"}` }}
+      <div className={`min-h-[200vh] 2xl:min-h-[100vh] md:my-auto overflow-hidden md:overflow-auto bg-red-700 justify-between px-5 flex-wrap md:px-40 items-center relative`} style={{ display: `${!open ? "flex" : "none"}` }}
       >
         <div className='h-[100vh] lg:h-fit text-white text-3xl md:text-5xl text-left leading-[2.5rem] md:leading-[4rem]'>
           <br />
