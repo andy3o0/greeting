@@ -51,18 +51,19 @@ const Home = () => {
 
   return (
     <div className="">
-
-      <Head>
-        <title>Merry Christmas {name}</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
-          rel="stylesheet"
-        />
-        <meta property="og:site_name" content={`Merry Christmas`} />
-        <meta property="og:title" content={`Merry Christmas ${name}`} />
-        <meta property="og:image" content="/ogr.webp" />
-      </Head>
+      {name && (
+        <Head>
+          <title>Merry Christmas {name}</title>
+          <link rel="icon" href="/favicon.ico" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+            rel="stylesheet"
+          />
+          <meta property="og:image" content="/ogr.webp" />
+          <meta property="og:site_name" content={`Merry Christmas ${name}`} />
+          <meta property="og:title" content={`Merry Christmas ${name}`} />
+        </Head>)
+      }
       <div className={`min-h-[200vh] 2xl:min-h-[100vh] md:my-auto bg-red-700 justify-between px-20 flex-wrap md:px-40 items-center relative`} style={{ display: `${!open ? "flex" : "none"}` }}
       >
         <div className='h-[100vh] lg:h-fit text-white text-5xl text-left leading-[4rem]'>
