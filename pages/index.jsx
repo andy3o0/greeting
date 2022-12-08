@@ -152,7 +152,7 @@ const Home = () => {
           {name && (<div className='text-black text-5xl absolute bottom-5 z-10 flex items-center justify-center  gap-5'>
             <a className='flex items-center' href={`https://www.facebook.com/sharer/sharer.php?u=https://greeting-two.vercel.app/?name=${name}`}><button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">FACEBOOK</button>
             </a>
-            <a className='flex items-center' href={`whatsapp://send?text=https://greeting-two.vercel.app/?name=${name}`}><button className="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Whatsapp</button>
+            <a className='flex items-center' href={`whatsapp://send?text=https://greeting-two.vercel.app/?name=${name}`}><button className="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">WHATSAPPshare</button>
             </a>
           </div>)}
 
