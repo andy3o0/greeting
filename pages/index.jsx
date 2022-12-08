@@ -39,7 +39,7 @@ const Home = () => {
     }
     bubbles();
 
-    var countDownDate = new Date("01 January, 2023 00:00:00").getTime(), x = setInterval(function () { var e = (new Date).getTime(), o = countDownDate - e, t = Math.floor(o / 864e5), n = Math.floor(o % 864e5 / 36e5), a = Math.floor(o % 36e5 / 6e4), l = Math.floor(o % 6e4 / 1e3); document.getElementById("timer").innerHTML = t - 5 + "<font color='#ff9100'> Days,</font> " + n + "<font color='#ff9100'> Hours,</font> " + a + "<font color='#ff9100'> Minutes,<br></font> " + l + "<font color='#ff9100'> Seconds <spna style='color:white'>Before</span> </font>", o < 0 && (clearInterval(x), document.getElementById("timer").innerHTML = "") }, 1e3);
+    var countDownDate = new Date("01 January, 2023 00:00:00").getTime(), x = setInterval(function () { var e = (new Date).getTime(), o = countDownDate - e, t = Math.floor(o / 864e5), n = Math.floor(o % 864e5 / 36e5), a = Math.floor(o % 36e5 / 6e4), l = Math.floor(o % 6e4 / 1e3); document.getElementById("timer").innerHTML = t - 6 + "<font color='#ff9100'> Days,</font> " + n + "<font color='#ff9100'> Hours,</font> " + a + "<font color='#ff9100'> Minutes,<br></font> " + l + "<font color='#ff9100'> Seconds <spna style='color:white'>Before</span> </font>", o < 0 && (clearInterval(x), document.getElementById("timer").innerHTML = "") }, 1e3);
 
   }, [])
 
