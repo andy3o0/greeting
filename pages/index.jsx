@@ -60,7 +60,7 @@ const Home = () => {
           rel="stylesheet"
         />
         <meta property="og:site_name" content={`Merry Christmas`} />
-        <meta property="og:title" content={`Merry Christmas`} />
+        <meta property="og:title" content={`Merry Christmas ${name}`} />
         <meta property="og:image" content="/ogr.webp" />
       </Head>
       <div className={`min-h-[200vh] 2xl:min-h-[100vh] md:my-auto bg-red-700 justify-between px-20 flex-wrap md:px-40 items-center relative`} style={{ display: `${!open ? "flex" : "none"}` }}
