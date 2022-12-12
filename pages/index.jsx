@@ -120,7 +120,7 @@ const Home = () => {
       <div className="overflow-hidden h-[100vh]  w-[100vw] relative" style={{ display: `${open ? "block" : "none"}` }}>
         <header className='bg-red-500 px-5 w-full h-[50px] absolute flex justify-between items-center top-0'>
           <a className='flex items-center' href={`https://business.mktimothy.com/`}><button className="text-white bg-green-700 hover:bg-green-800 focus:ring-4  font-bold focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Pitch Your Idea</button>
-          </a><a className='flex items-center' href={`https://entrepreneurs.mktimothy.com/`}><button className="text-white bg-green-700 hover:bg-green-800 focus:ring-4  font-bold focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Invest In Uganda</button>
+          </a><a className='flex items-center' href={`https://investors.mktimothy.com/`}><button className="text-white bg-green-700 hover:bg-green-800 focus:ring-4  font-bold focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Invest In Uganda</button>
           </a>
         </header>
         <ul>
